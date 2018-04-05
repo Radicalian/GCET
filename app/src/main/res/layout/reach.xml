@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffa946">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/im89"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/senb"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reach us:"
+        android:textSize="35sp"
+        android:textStyle="bold|italic"
+        android:textColor="#ffffff"
+        android:id="@+id/tv1"/>
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/sp1"
+            android:layout_below="@+id/tv1"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="If you face any problem regarding facilities,faculty then feel free to share your problem by clicking on the Email given below :"
+        android:layout_below="@+id/sp1"
+        android:id="@+id/tv2"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        />
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:id="@+id/sp2"
+        android:layout_below="@+id/tv2"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gfeed2018@gmail.com"
+        android:autoLink="email"
+        android:textColorLink="#1aff00"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:textColor="#ffffff"
+        android:id="@+id/tv3"
+        android:layout_below="@+id/sp2"/>
+
+
+
+
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/sp3"
+        android:layout_below="@+id/tv3"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="And If you face any problem regarding Mobile App then feel free to share your problem by clicking on the Email given below :"
+        android:layout_below="@+id/sp3"
+        android:id="@+id/tv4"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        />
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:id="@+id/sp4"
+        android:layout_below="@+id/tv4"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="radicalians@gmail.com"
+        android:autoLink="email"
+        android:textColorLink="#1aff00"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:textColor="#ffffff"
+        android:id="@+id/tv5"
+        android:layout_below="@+id/sp4"/>
+
+</RelativeLayout>
+</ScrollView>

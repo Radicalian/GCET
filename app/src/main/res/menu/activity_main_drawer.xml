@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/Notification"
+            android:icon="@drawable/ic_action_name34"
+            android:title="Notification"
+
+            />
+        <item
+            android:id="@+id/Notes"
+            android:icon="@drawable/ic_action_name35"
+            android:title="Gsim"
+
+            />
+        <item
+            android:id="@+id/Downlaods"
+            android:icon="@drawable/ic_action_name8"
+            android:title="Visit Icacccn 2K18" />
+        <item
+            android:id="@+id/Developer"
+            android:icon="@drawable/ic_action_name3"
+            android:title="Developer" />
+
+    </group>
+
+        <item android:title="Communicate"
+            android:titleCondensed="#ffffff">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_action_name4"
+                android:title="Share" />
+            <item
+                android:id="@+id/send"
+                android:icon="@drawable/ic_action_name5"
+                android:title="Reach Us" />
+        </menu>
+    </item>
+
+</menu>

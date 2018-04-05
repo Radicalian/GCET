@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ff9100">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/im1"
+    android:src="@drawable/badge11"
+    />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20sp"
+        android:id="@+id/a1"
+        />
+    <br.com.bloder.magic.view.MagicButton
+
+        android:id="@+id/action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:button_icon="@drawable/ic1"
+        app:button_icon_height="45dp"
+        app:button_icon_width="45dp"
+        app:expandable_area_color="#0059ff"
+        app:hide_text="Udacity\nCourses"
+
+        app:hide_text_color="#ffffff"
+        app:hide_text_size="8dp"
+        app:icon_button_color="#FF00D9FF"
+
+        app:magic_button_size="70dp"
+        />
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/s1"
+        />
+
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/action_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:button_icon="@drawable/ic1"
+        app:button_icon_height="45dp"
+        app:button_icon_width="45dp"
+        app:expandable_area_color="#ff0000"
+        app:hide_text="Udemy\nCourses"
+
+        app:hide_text_color="#ffffff"
+        app:hide_text_size="8dp"
+        app:icon_button_color="#ff6200"
+
+        app:magic_button_size="70dp"
+       />
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/s2"
+        />
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/action_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:button_icon="@drawable/ic1"
+        app:button_icon_height="45dp"
+        app:button_icon_width="45dp"
+        app:expandable_area_color="#06e961"
+        app:hide_text="Pluralsight"
+
+        app:hide_text_color="#ffffff"
+        app:hide_text_size="8dp"
+        app:icon_button_color="#00f946"
+
+        app:magic_button_size="70dp"
+        />
+    </LinearLayout>
+</ScrollView>

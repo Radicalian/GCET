@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bc2"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ec3"
+        android:text="Developed By :"
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="20dp"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/a1"
+            android:layout_below="@+id/ec3"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/in1"
+        android:layout_below="@+id/a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/deve2"
+        app:civ_border_color="#FFFFFF0C"
+        app:civ_border_width="6dp" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/in1"
+        android:text="Rajat Krishnan"
+        android:textAlignment="center"
+        android:textColor="#ffffffff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+android:id="@+id/tv4"
+        android:text="Student\nInformation Technology"
+        android:textAlignment="center"
+        android:textColor="#ffffffff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/ec4"
+            android:layout_below="@+id/tv4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Special Thanks to :"
+            android:textStyle="bold|italic"
+            android:textSize="24sp"
+            android:id="@+id/tv5"
+            android:textColor="#ffffffff"
+            android:layout_below="@+id/ec4"
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/ec5"
+            android:layout_below="@+id/tv5"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/in2"
+            android:layout_below="@+id/ec5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/hod"
+            app:civ_border_color="#FFFFFF0C"
+            app:civ_border_width="6dp" />
+
+
+
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/in2"
+            android:text="Proff.Vishnu Sharma"
+            android:textAlignment="center"
+            android:textColor="#ffffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv6"
+            android:id="@+id/tv7"
+            android:text="Hon'rable Head Of Department\n(CSE/IT)"
+            android:textAlignment="center"
+            android:textColor="#ffffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/ec6"
+            android:layout_below="@+id/tv7"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/in3"
+            android:layout_below="@+id/ec6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/shub2"
+            app:civ_border_color="#FFFFFF0C"
+            app:civ_border_width="6dp" />
+
+
+
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/in3"
+            android:text="Shubham Kumar"
+            android:textAlignment="center"
+            android:textColor="#ffffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv8"
+            android:id="@+id/tv9"
+            android:text="Club Head\nInformation Technology"
+            android:textAlignment="center"
+            android:textColor="#ffffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/ec7"
+            android:layout_below="@+id/tv9"/>
+        <ImageView
+            android:id="@+id/in4"
+            android:layout_below="@+id/tv10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/bn1"
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/tv10"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/ec7"
+            android:layout_height="wrap_content"
+            android:text="Entire Faculties of CSE/IT"
+            android:textAlignment="center"
+            android:textColor="#ffffffff"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            />
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
